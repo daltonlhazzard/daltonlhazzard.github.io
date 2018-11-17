@@ -1,0 +1,126 @@
+html, body{
+    height:100%;
+}
+
+* {
+    text-align: justify;
+    font: #777777;
+  }
+  
+  header{
+    display: block;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+  }
+
+  .headerNav{
+    display: flex;
+    max-width: 960px;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin: 0 auto;
+  }
+
+  .headerLeft{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 15px;
+    background: #4aaaa5;
+    margin: 0;
+  }
+
+  .headerNavigation{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .headerNavigation>li {
+    padding: 6px;
+    flex-flow: row wrap;
+    margin:0;
+  }
+
+  header:after{
+      content:" ";
+      clear: both;
+      display: block;
+  }
+
+  body{
+      display: flex;
+      flex-direction: column;
+      margin:0;
+      background-image: ;
+  }
+
+  .content{
+      display: flex;
+      flex: 1;
+      justify-content: space-around;
+      align-content: center 960px;
+      margin-top: 30px;
+
+  }
+
+  .inner{
+      flex: 1;
+      max-width: 960px;
+      max-height: 400px;
+      align-content: center;
+      justify-content: center;
+      background: #ffffff;
+  }
+
+  #aboutMe{
+      color:#4aaaa5;
+      padding-left: 15px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #e7e7e7;
+  }
+
+  .aboutMe, .portfolio{
+    padding-left: 15px;
+  }
+
+  .aboutMe>p{
+      margin: 5px;
+      padding: 5px;
+  }
+
+
+  footer{
+      color: #ffffff;
+      background: #666666;
+      text-align: center;
+      font-size: 12px;
+      border-top: 6px solid #4aaaa5;
+      padding: 30px 0 2px 0;
+  }
+
+  .footer{
+    flex-shrink: 0;
+  }
+
+  a{
+      color: #777777;
+      text-decoration: none;
+  }
+
+  .sep{
+      color:#acacaa;
+      opacity: .2;
+  }
+
+  img.wrap{
+      float:left;
+      padding-right: 10px;
+  }
+
+  .pcontainer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
