@@ -1,1 +1,2 @@
-# daltonlhazzard.github.io
+# Basic-Portfolio
+This is the first homework assignment/webpage
