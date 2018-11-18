@@ -15,6 +15,17 @@ html, body{
     border-bottom-width: 2px;
   }
 
+  .pcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img.wrap{
+    float:left;
+    padding-right: 10px;
+}
+
   .hn{
     display: flex;
     max-width: 960px;
@@ -103,17 +114,6 @@ html, body{
   .sep{
       color:#acacaa;
       opacity: .2;
-  }
-
-  img.wrap{
-      float:left;
-      padding-right: 10px;
-  }
-
-  .pcontainer{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
   }
 
   .content{
