@@ -15,7 +15,7 @@ html, body{
     border-bottom-width: 2px;
   }
 
-  .headerNav{
+  .hn{
     display: flex;
     max-width: 960px;
     justify-content: space-between;
@@ -23,18 +23,12 @@ html, body{
     margin: 0 auto;
   }
 
-  .headerLeft{
+  .hl{
     color: #ffffff;
     text-align: center;
     padding: 20px 15px;
     background: #4aaaa5;
     margin: 0;
-  }
-
-  .headerNavigation{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
   }
 
   .headerNavigation>li {
@@ -43,10 +37,10 @@ html, body{
     margin:0;
   }
 
-  header:after{
-      content:" ";
-      clear: both;
-      display: block;
+  .headerNavigation{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
   }
 
   body{
@@ -54,15 +48,6 @@ html, body{
       flex-direction: column;
       margin:0;
       background-image: ;
-  }
-
-  .content{
-      display: flex;
-      flex: 1;
-      justify-content: space-around;
-      align-content: center 960px;
-      margin-top: 30px;
-
   }
 
   .inner{
@@ -80,6 +65,12 @@ html, body{
       padding-bottom: 20px;
       border-bottom: 3px solid #e7e7e7;
   }
+
+  header:after{
+    content:" ";
+    clear: both;
+    display: block;
+}
 
   .aboutMe, .portfolio{
     padding-left: 15px;
@@ -124,3 +115,12 @@ html, body{
       flex-wrap: wrap;
       justify-content: space-around;
   }
+
+  .content{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-content: center 960px;
+    margin-top: 30px;
+
+}
